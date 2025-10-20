@@ -62,7 +62,8 @@ CSS_project/
 To deploy to a servlet container (Tomcat, Jetty, etc.):
 
 1. Build the WAR file: `mvn clean package`
-2. Copy the WAR file from `target/Sample_css_template-0.0.1-SNAPSHOT.war` to your servlet container's deployment directory
+2. The WAR file will be created in the `target/` directory with the name `Sample_css_template-0.0.1-SNAPSHOT.war`
+3. Copy the WAR file to your servlet container's deployment directory (e.g., `webapps/` for Tomcat)
 
 ## Technology Stack
 
